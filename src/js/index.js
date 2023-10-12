@@ -3,9 +3,6 @@ const mandatory = document.querySelectorAll('.mandatory-hidden')
 const btnSend = document.getElementById('send-button')
 const form = document.getElementById('form')
 
-
-console.log(btnSend);
-
 btnSend.addEventListener('click', (event) => {
     event.preventDefault();
 
