@@ -28,7 +28,6 @@ btnSend.addEventListener('click', (event) => {
         if(i === countInput) {
             form.submit()
         } else {
-            alert('Preencha todos os campos')
             return 
         }
     });
